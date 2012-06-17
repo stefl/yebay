@@ -2,7 +2,9 @@ class YeBay < Padrino::Application
   register Padrino::Rendering
   register Padrino::Mailer
   register Padrino::Helpers
-
+  register Padrino::Cache
+  enable :caching
+  
   set :cache, Padrino::Cache::Store::Memcache.new(::Dalli::Client.new())
 
   ##
