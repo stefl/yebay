@@ -265,36 +265,38 @@ h2 {
   margin-bottom: 1.333em;
 }
 
-/* line 156, ../../app/stylesheets/application.scss */
-.item {
-  width: 32.203%;
-  float: left;
-  margin-right: 1.695%;
-  display: inline;
+@media (min-width: 67.5em) {
+  /* line 157, ../../app/stylesheets/application.scss */
+  .item {
+    width: 32.203%;
+    float: left;
+    margin-right: 1.695%;
+    display: inline;
+  }
+  /* line 160, ../../app/stylesheets/application.scss */
+  .item:nth-child(n+3):nth-child(3n) {
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
 }
-/* line 159, ../../app/stylesheets/application.scss */
-.item:nth-child(n+3):nth-child(3n) {
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-}
-/* line 161, ../../app/stylesheets/application.scss */
+/* line 166, ../../app/stylesheets/application.scss */
 .item p {
   font-family: "lapture-display", serif;
   margin-bottom: 1.333em;
 }
-/* line 163, ../../app/stylesheets/application.scss */
+/* line 168, ../../app/stylesheets/application.scss */
 .item p .price {
   color: #8c5e2f;
   font-size: 2em;
   line-height: 1.333em;
 }
-/* line 167, ../../app/stylesheets/application.scss */
+/* line 172, ../../app/stylesheets/application.scss */
 .item p i {
   font-style: italic;
 }
-/* line 172, ../../app/stylesheets/application.scss */
+/* line 177, ../../app/stylesheets/application.scss */
 .item img {
   width: 100%;
   filter: url(filters.svg#grayscale);
@@ -305,7 +307,7 @@ h2 {
   /* Google Chrome & Webkit Nightlies */
 }
 
-/* line 180, ../../app/stylesheets/application.scss */
+/* line 185, ../../app/stylesheets/application.scss */
 section#items {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

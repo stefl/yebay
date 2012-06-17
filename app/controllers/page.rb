@@ -5,7 +5,10 @@ YeBay.controllers :page do
   get :index, :map => "/", :cache => true  do
     expires_in 300
     @items = []
-    json = ::JSON.parse(open("http://myshakespeare.worldshakespearefestival.org.uk/api/?dateRange=10-06-2012,17-06-2012").read)
+    t = Time.new
+    to = t.strftime("%d-%m-%Y")
+    from = (t - (2*7*24*60*60)).strftime("%d-%m-%Y")
+    json = ::JSON.parse(open("http://myshakespeare.worldshakespearefestival.org.uk/api/?dateRange=#{from},#{to}").read)
     json.keys.each do |key|
       begin
         day = ::JSON.parse(json[key]) if json[key]

@@ -153,11 +153,16 @@ h2 {
   @include trailer;
 }
 
-.item {
-  @include span-columns(4,12);
-  &:nth-child(n+3) {
-    &:nth-child(3n) { @include omega; } 
+@include at-breakpoint(60em 12) { 
+  .item {
+    @include span-columns(4,12);
+    &:nth-child(n+3) {
+      &:nth-child(3n) { @include omega; } 
+    }
   }
+}
+
+.item {
   p {
     font-family: $body_face;
     .price {
