@@ -1,0 +1,15 @@
+%section#items
+  - @items.each do |item|
+    .item
+      %h2
+        %a{:href=>item["Source"]}= item["Title"]
+
+      - unless item["Image"].blank?
+        %a{:href=>item["Source"]}
+          %img{:src=>item["Image"]}
+      %p
+        %i.location= item["Location"]
+        %br
+        %i.price
+          = item["Price"] 
+          Groates

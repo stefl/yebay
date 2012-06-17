@@ -1,0 +1,315 @@
+/* line 17, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 61, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 112.5%;
+}
+
+/* line 64, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 18px;
+  line-height: 1.333em;
+}
+
+/* line 34, ../../app/stylesheets/application.scss */
+body {
+  background-color: #eeddcc;
+  font-family: "lapture-display", serif;
+  color: #2a1e12;
+}
+/* line 37, ../../app/stylesheets/application.scss */
+body a {
+  color: #332222;
+}
+/* line 18, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+body a:visited {
+  color: #704b4b;
+}
+/* line 21, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+body a:focus {
+  color: #805555;
+}
+/* line 24, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+body a:hover {
+  color: #523636;
+}
+/* line 27, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+body a:active {
+  color: #614141;
+}
+/* line 40, ../../app/stylesheets/application.scss */
+body h1 a {
+  text-decoration: none;
+}
+
+/* line 46, ../../app/stylesheets/application.scss */
+.page {
+  font-family: "lapture-display", serif;
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 50, ../../app/stylesheets/application.scss */
+.page header {
+  clear: both;
+}
+/* line 54, ../../app/stylesheets/application.scss */
+.page footer {
+  clear: both;
+  text-align: center;
+  float: none;
+  width: auto;
+  margin-right: auto;
+  #margin-left: auto;
+  display: block;
+  margin-top: 1.333em;
+  margin-bottom: 1.333em;
+}
+/* line 61, ../../app/stylesheets/application.scss */
+.page .twitter-follow-button {
+  position: relative;
+  top: 6px;
+}
+@media (min-width: 67.5em) {
+  /* line 67, ../../app/stylesheets/application.scss */
+  .page .content {
+    padding-left: 8.475%;
+    width: 83.051%;
+    float: left;
+    margin-right: 1.695%;
+    display: inline;
+  }
+}
+
+/* line 74, ../../app/stylesheets/application.scss */
+h1 {
+  font-size: 2em;
+  line-height: 1.333em;
+  font-family: "lapture-display", serif;
+}
+@media (min-width: 67.5em) {
+  /* line 74, ../../app/stylesheets/application.scss */
+  h1 {
+    font-size: 2em;
+    line-height: 1.333em;
+  }
+}
+
+/* line 83, ../../app/stylesheets/application.scss */
+header#header {
+  padding-top: 1.333em;
+  margin-top: 1.333em;
+}
+/* line 85, ../../app/stylesheets/application.scss */
+header#header h1#logo {
+  text-align: center;
+  font-family: "baroque-text", serif;
+  font-weight: light;
+}
+/* line 91, ../../app/stylesheets/application.scss */
+header#header h2 {
+  font-family: "lapture-display", serif;
+  font-weight: 200;
+  font-size: 0.5em;
+  line-height: 2.667em;
+  text-weight: light;
+  font-style: italic;
+  text-align: center;
+  color: #b3773c;
+}
+@media (min-width: 67.5em) {
+  /* line 91, ../../app/stylesheets/application.scss */
+  header#header h2 {
+    font-size: 1em;
+    line-height: 2.667em;
+  }
+}
+/* line 106, ../../app/stylesheets/application.scss */
+header#header h1#logo {
+  font-size: 3em;
+  line-height: 1.333em;
+}
+@media (min-width: 67.5em) {
+  /* line 106, ../../app/stylesheets/application.scss */
+  header#header h1#logo {
+    font-size: 6em;
+    line-height: 1.111em;
+  }
+}
+/* line 112, ../../app/stylesheets/application.scss */
+header#header h2 {
+  font-size: 1em;
+  line-height: 1.333em;
+}
+@media (min-width: 67.5em) {
+  /* line 112, ../../app/stylesheets/application.scss */
+  header#header h2 {
+    font-size: 1.33em;
+    line-height: 3.008em;
+  }
+}
+
+/* line 121, ../../app/stylesheets/application.scss */
+section.content section {
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px;
+  padding-top: 1.333em;
+  padding-bottom: 1.333em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-bottom: 1.333em;
+}
+@media (min-width: 67.5em) {
+  /* line 121, ../../app/stylesheets/application.scss */
+  section.content section {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}
+/* line 133, ../../app/stylesheets/application.scss */
+section.content section header {
+  margin-bottom: 1.333em;
+}
+/* line 137, ../../app/stylesheets/application.scss */
+section.content section h1 a, section.content section h1 a:visited {
+  color: #8c5e2f;
+}
+/* line 141, ../../app/stylesheets/application.scss */
+section.content section h2.comments {
+  text-align: center;
+  margin-top: 1.333em;
+  margin-bottom: 1.333em;
+}
+
+/* line 149, ../../app/stylesheets/application.scss */
+h2 {
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.333em;
+  font-family: "lapture-display", serif;
+  margin-bottom: 1.333em;
+}
+
+/* line 156, ../../app/stylesheets/application.scss */
+.item {
+  width: 32.203%;
+  float: left;
+  margin-right: 1.695%;
+  display: inline;
+}
+/* line 159, ../../app/stylesheets/application.scss */
+.item:nth-child(n+3):nth-child(3n) {
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+/* line 161, ../../app/stylesheets/application.scss */
+.item p {
+  font-family: "lapture-display", serif;
+  margin-bottom: 1.333em;
+}
+/* line 163, ../../app/stylesheets/application.scss */
+.item p .price {
+  color: #8c5e2f;
+  font-size: 2em;
+  line-height: 1.333em;
+}
+/* line 167, ../../app/stylesheets/application.scss */
+.item p i {
+  font-style: italic;
+}
+/* line 172, ../../app/stylesheets/application.scss */
+.item img {
+  width: 100%;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Webkit Nightlies */
+}
+
+/* line 180, ../../app/stylesheets/application.scss */
+section#items {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  *zoom: 1;
+}
