@@ -3,8 +3,6 @@ class YeBay < Padrino::Application
   register Padrino::Mailer
   register Padrino::Helpers
 
-  enable :sessions
-
   set :cache, Padrino::Cache::Store::Memcache.new(::Dalli::Client.new())
 
   ##
