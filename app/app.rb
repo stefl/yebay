@@ -5,6 +5,8 @@ class YeBay < Padrino::Application
 
   enable :sessions
 
+  set :cache, Padrino::Cache::Store::Memcache.new(::Dalli::Client.new())
+
   ##
   # Caching support
   #
