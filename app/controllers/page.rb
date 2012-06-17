@@ -3,6 +3,7 @@ require 'json'
 
 YeBay.controllers :page do
   get :index, :map => "/" do
+    cache_control :public, :must_revalidate, :max_age => 300
     @items = []
     json = ::JSON.parse(open("http://myshakespeare.worldshakespearefestival.org.uk/api/?dateRange=10-06-2012,17-06-2012").read)
     json.keys.each do |key|
